@@ -48,3 +48,10 @@ even_or_odd(2)
 even_or_odd(0)
 even_or_odd(7)
 even_or_odd(1)
+
+
+const even_or_odd2=(number) => number % 2 === 0 ? 'Even' : 'Odd';
+console.log(even_or_odd2(2))
+console.log(even_or_odd2(0))
+console.log(even_or_odd2(7))
+console.log(even_or_odd2(1))
