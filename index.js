@@ -28,3 +28,23 @@ console.log(solution2("Hello"))
 
 const solution3 = str1 => str1.split('').reverse().join('');
 console.log(solution3("NYC"))
+
+//============================================================================================================
+console.log("Q2")
+//Create a function (or write a script in Shell) that takes an integer as an argument and returns "Even" for even numbers or "Odd" for odd numbers.
+// Test.assertEquals(even_or_odd(2), "Even")
+// Test.assertEquals(even_or_odd(0), "Even")
+// Test.assertEquals(even_or_odd(7), "Odd")
+// Test.assertEquals(even_or_odd(1), "Odd")
+
+function even_or_odd(number) {
+  if(number % 2===0){
+  console.log("Even")
+  }else{
+  console.log("Odd")
+}
+}
+even_or_odd(2)
+even_or_odd(0)
+even_or_odd(7)
+even_or_odd(1)
