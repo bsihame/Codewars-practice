@@ -181,6 +181,7 @@ function list(names){
   }
   console.log(list([ {name: 'Bart'}, {name: 'Lisa'} ]))
 
+
   
 
 
